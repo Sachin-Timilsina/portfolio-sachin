@@ -1,63 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sachin Timilsina</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contacts</a></li>
-            </ul>
-        </nav>
+      <div class="section"></div>
+      <nav>
+        <ul>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="section"></div>
     </header>
 
-    <main>
+    <div class="container">
+      <div class="section"></div>
+      <main>
         <section id="about">
-            <img src="sachin.jpg" alt="Sachin Photo" height="200px">
-            <h2>About Me</h2>
-            <p>Hi! I'm Sachin Timilsina. I'm a app developer student currently studying BCA. I enjoy building clean, accessible app and learning game dev.</p>
-            <p>Short bio: passionate about app development, problem solving, and continuous learning.</p>
+          <div>
+            <img
+              class="margin-between"
+              src="sachin.jpg"
+              alt="Sachin Photo"
+              height="200px"
+            />
+          </div>
+
+          <h2 class="margin-between">About Me</h2>
+          <p class="margin-between">
+            Hi! I'm Sachin Timilsina. I'm a app developer and a student
+            currently studying BCA. I enjoy building clean, accessible app and
+            learning game dev.
+          </p>
+          <p class="margin-between">
+            Short bio: passionate about app development, problem solving, and
+            continuous learning.
+          </p>
         </section>
 
         <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML5 & semantic markup</li>
-                <li>Basic CSS layout and responsive design (no external CSS used here)</li>
-                <li>Introductory JavaScript (concepts)</li>
-            </ul>
+          <h2 class="margin-between">Skills</h2>
+          <ul class="margin-between side-padding">
+            <li>HTML5 & semantic markup</li>
+            <li>Basic CSS layout and responsive design</li>
+            <li>Javascript Concepts</li>
+            <li>Dart</li>
+            <li>Kotlin</li>
+            <li>Flutter</li>
+          </ul>
         </section>
 
         <section id="projects">
-            <h2>Projects</h2>
-            <article>
-                <h3>Portfolio Website</h3>
-                <p>A simple portfolio showcasing projects and skills. This site is built with plain HTML (no CSS/JS included in this task).</p>
-            </article>
+          <h2 class="margin-between">Projects</h2>
+          <article class="margin-between">
+            <h3>8 Minute Workout App</h3>
+            <p>Workout app made using flutter that lasts 8 minutes.</p>
+          </article>
+          <article class="margin-between">
+            <h3>Currency Converter: ECB Offline</h3>
+            <p>
+              Currency converter app that utilizes data provided by the European
+              Central Bank. It is a offline first app
+            </p>
+          </article>
+          <article class="margin-between">
+            <h3>Portfolio Website</h3>
+            <p>
+              A simple portfolio showcasing projects and skills. This site is
+              built with plain HTML (no JS included in this task).
+            </p>
+          </article>
         </section>
 
         <section id="testimonials">
-            <h2>Testimonials</h2>
-            <blockquote>
-                <p>"Sachin is a dedicated learner and produces tidy, readable HTML." — Instructor</p>
-            </blockquote>
+          <h2 class="margin-between">Testimonials</h2>
+          <blockquote class="margin-between">
+            <p>
+              "Sachin is a dedicated learner and produces tidy, readable HTML."
+              — Instructor
+            </p>
+          </blockquote>
         </section>
 
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Reach me at: <a href="mailto:sachin@gmail.com">sachin@gmail.com</a></p>
+          <h2 class="margin-between">Contact</h2>
+          <p class="margin-between">
+            Reach me at:
+            <a href="mailto:sachindev@gmail.com">sachindev@gmail.com</a>
+          </p>
         </section>
-    </main>
+      </main>
+      <div class="section"></div>
+    </div>
 
     <footer>
-        <p>&copy; 2025 Sachin Timilsina</p>
+      <div class="section" class="margin-between"></div>
+      <p>&copy; 2025 Sachin Timilsina</p>
+      <div class="section"></div>
     </footer>
-</body>
+  </body>
 </html>
